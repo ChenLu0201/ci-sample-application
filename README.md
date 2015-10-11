@@ -14,7 +14,7 @@ GRANT SELECT,INSERT,UPDATE,DELETE,CREATE,DROP,ALTER,INDEX ON ci_sample.* TO 'ci_
 ### build工程
 - 在工程根路径下执行`gradle flywayMigrate`准备数据库环境
 - 执行`gradle build`构建工程
-- 启动应用执行'gradle bootRun',homepage访问http://localhost:8080
+- 启动应用执行`gradle bootRun`，homepage访问http://localhost:8080
 
 ### 初始化karma框架
 - 在工程根路径下执行`npm install`
