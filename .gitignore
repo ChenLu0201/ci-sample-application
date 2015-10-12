@@ -5,3 +5,4 @@
 .gradle/
 build/
 node_modules/
+application.log
